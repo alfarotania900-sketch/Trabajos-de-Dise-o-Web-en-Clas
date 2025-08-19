@@ -2,8 +2,8 @@
 body {
   font-family: "Segoe UI", Arial, sans-serif;
   margin: 0;
-  background: #f5f7fa; /* fondo gris muy claro */
-  color: #333333; /* color de texto general */
+  background: #f5f7fa; 
+  color: #333333; 
 }
 
 * 
@@ -22,20 +22,24 @@ header {
 }
 
 *
-h1 {
-  font-size: 2.2em;
-  margin: 10px 0 10px;
-  color: #c94f7c; 
+h1  {
+  font-size: 24px;
+  text-align: center;
+  margin: 15px 0;
+  color: #c94f7c
+  
 }
 
-h2 {
-  color: #4aa3d9; 
+h2 ,h3, h4 ,h5 {
+  color: #06121a; 
   margin-top: 20px;
+  text-align: center;
+
 }
 
 
 p {
-  color: #444444;
+  color: #140303;
   font-size: 18px;
   line-height: 1.6;
   max-width: 600px;
