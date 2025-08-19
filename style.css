@@ -30,7 +30,7 @@ h1  {
   
 }
 
-h2 ,h3, h4 ,h5 {
+h2 ,h2, h2 ,h2 {
   color: #06121a; 
   margin-top: 20px;
   text-align: center;
@@ -55,8 +55,9 @@ main a {
   padding: 4px 8px;
   border-radius: 4px;
   transition: background 0.3s;
+  text-align: center;
 }
 
 main a:hover {
-  background: rgba(74,163,217,0.2); 
+  background: rgba(9, 69, 107, 0.2); 
 }
