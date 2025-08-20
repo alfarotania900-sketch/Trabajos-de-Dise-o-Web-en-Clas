@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div id="miContenedor">
+        <p>Este es un parrafo dentro del contenedor.</p>
+
+    </div>
+        <div class="caja">Gato</div>
+        <div class="caja"> Perro</div>
+        <p id="mensaje">Buenos dias alumnos</p>
+        <p id="mensaje">Hoy es un dia lindo</p>
+
+
+    </div>
+    
+</body>
+<script>
+        var Nombre = "Tania Alfaro";
+        let anio = 2008;
+        let anioActual = 2025;
+        let Edad = anioActual - anio;
+
+
+  
+
+
+        console.log("Nombre: " + Nombre );
+        console.log("anio:" + anio );
+        console.log("anioActual:" + anioActual );
+        console.log("Edad:" + Edad);
+
+        document.write("Nombre:" + Nombre  + "<br>");
+        document.write("anio:" + anio + "<br>" );
+        document.write("anioActual:" + anioActual + "<br>" );
+        document.write("Edad:" + Edad + "<br>");
+
+
+        
+
+
+const titulopag=document.title;
+console.log(titulopag);
+
+const elemento = document.getElementById("miContenedor");
+document.write(elemento.innerText);
+
+const primeraCaja =document.querySelector(".caja");
+document.write(primeraCaja.textContent);
+const miMensaje = document.querySelector("mensaje");
+document.write(miMensaje.textContent);
+
+
+
+
+
+
+
+
+</script>
+<body>
+    
+</body>
+</html>
