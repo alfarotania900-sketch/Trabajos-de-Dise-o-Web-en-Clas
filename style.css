@@ -4,12 +4,16 @@ body {
   margin: 0;
   background: #72afc2; 
   color: #333333; 
+  text-align: center;
+  padding: 0;
 }
 
 * 
 header {
   text-align: center;
-  padding: 25px ;
+  padding: 20px ;
+  background-color: #333;
+  color: aliceblue;
 
 }
 
@@ -36,6 +40,8 @@ h2 ,h3, h4 ,h5 {
   margin-top: 15px 0;
   text-align: center;
   font-size: 24px;
+  font-weight: bold;
+  margin: 10px 0;
 
 }
 
@@ -44,13 +50,18 @@ p , li {
   color: #140303;
   font-size: 18px;
   line-height: 1.6;
-  max-width: 600px;
+  max-width: 800px;
   margin: 10px auto;
   text-align: center;
+  list-style: none;
+
+  
+
 }
 
 * 
 main a {
+  display: inline-block;
   color: #4aa3d9; 
   text-decoration: none;
   font-weight: bold;
@@ -58,6 +69,7 @@ main a {
   border-radius: 4px;
   transition: background 0.3s;
   text-align: center;
+  background-color: #07c;
 }
 
 main a:hover {
