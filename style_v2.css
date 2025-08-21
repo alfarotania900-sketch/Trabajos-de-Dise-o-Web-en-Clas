@@ -3,7 +3,7 @@ html, body {
     margin: 0;
     padding: 0;
     font-family: 'Arial', sans-serif;
-    background-color: #a0e4f8; 
+    background-color: #f4f4f9; 
     color: #333; 
     text-align: center;
 }
@@ -28,24 +28,24 @@ header {
 
 
 header img {
-    max-width: 150px;
+    max-width: 120px;
     height: auto;
     display: block;
-    margin: 0 auto;
+    margin: 10px auto;
 }
 
 
 h1 {
     font-size: 2.5rem;  
     font-weight: bold;
-    margin: 20px 0;
+    margin: 17px 0;
 }
 
 
 h2, h3, h4, h5 {
     font-size: 1.5rem;   
     font-weight: 600;
-    margin: 10px 0;
+    margin: 15px 0;
 }
 
 
@@ -91,6 +91,18 @@ main {
     margin: 0 auto;
 }
 
+
+nav {
+     background-color: #fff;
+     padding: 15px;
+}
+
+nav a {
+    color: #fff;
+    margin: 0 20px;
+    font-size: 1.1rem;
+    font-weight: 500;
+}
 
 footer {
     background-color: #1e1e2f;
