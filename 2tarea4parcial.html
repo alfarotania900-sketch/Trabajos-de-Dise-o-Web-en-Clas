@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabla  Comparativa</title>
+</head>
+<body>
+  
+    <title>Eventos en JavaScript</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 20px;
+        }
+        h1 {
+            text-align: center;
+            color: #333;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            background: #fff;
+        }
+        th, td {
+            border: 1px solid #ccc;
+            padding: 12px;
+            text-align: left;
+        }
+        th {
+            background: #007BFF;
+            color: white;
+        }
+        code {
+            background: #eee;
+            padding: 2px 5px;
+            border-radius: 4px;
+            display: block;
+        }
+    </style>
+</head>
+<body>
+    <h1>Eventos en JavaScript</h1>
+    <table>
+        <tr>
+            <th>Evento</th>
+            <th>Descripción</th>
+            <th>Ejemplo en Código</th>
+        </tr>
+        <tr>
+            <td>onclick</td>
+            <td>Se activa cuando el usuario hace clic en un elemento.</td>
+            <td>
+                <code>
+                &lt;button onclick="alert('¡Hola!')"&gt;Haz clic&lt;/button&gt;
+                </code>
+            </td>
+        </tr>
+        <tr>
+            <td>onmouseover</td>
+            <td>Se activa cuando el puntero del ratón pasa sobre un elemento.</td>
+            <td>
+                <code>
+                &lt;div onmouseover="this.style.background='yellow'"&gt;Pasa el mouse&lt;/div&gt;
+                </code>
+            </td>
+        </tr>
+        <tr>
+            <td>onkeydown</td>
+            <td>Se activa cuando el usuario presiona una tecla.</td>
+            <td>
+                <code>
+                &lt;input type="text" onkeydown="console.log('Tecla presionada')"&gt;
+                </code>
+            </td>
+        </tr>
+        <tr>
+            <td>onchange</td>
+            <td>Se activa cuando el valor de un campo cambia.</td>
+            <td>
+                <code>
+                &lt;select onchange="alert('Opción cambiada')"&gt;
+                  &lt;option&gt;Opción 1&lt;/option&gt;
+                  &lt;option&gt;Opción 2&lt;/option&gt;
+                &lt;/select&gt;
+                </code>
+            </td>
+        </tr>
+        <tr>
+            <td>ondblclick</td>
+            <td>Se activa cuando el usuario hace doble clic en un elemento.</td>
+            <td>
+                <code>
+                &lt;p ondblclick="this.style.color='red'"&gt;Haz doble clic aquí&lt;/p&gt;
+                </code>
+            </td>
+        </tr>
+    </table>
+</body>
+</html>
+</body>
+</html>
