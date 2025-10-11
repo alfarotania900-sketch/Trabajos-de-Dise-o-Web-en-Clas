@@ -112,7 +112,7 @@ main > * {
     border-radius: 10px;
 }
 
-.padre div {
+.hijo1 div {
     padding: 20px;
     font-weight: bold;
     color: white;
