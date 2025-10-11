@@ -1,211 +1,130 @@
 * 
-html, body {
-    margin: 0;
-    padding: 0;
-    font-family: 'Arial', sans-serif;
-    background-color: #f4f4f9; 
-    color: #333; 
-    text-align: center;
+ html, body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Arial', sans-serif;
+  background-color: #f4f4f9; 
+  color: #333; 
+  text-align: center;
 }
 
-
 a {
-    color: #1e90ff;
-    text-decoration: none;
-    transition: color 0.3s ease;
+  color: #1e90ff;
+  text-decoration: none;
+  transition: color 0.3s ease;
 }
 
 a:hover {
-    color: #ff6347;
+  color: #ff6347;
 }
-
 
 header {
-    background-color: #9292c9; 
-    color: #fff;
-    padding: 20px 0;
+  background-color: #9292c9; 
+  color: #fff;
+  padding: 20px 0;
 }
-
 
 header img {
-    max-width: 120px;
-    height: auto;
-    display: block;
-    margin: 10px auto;
+  max-width: 120px;
+  height: auto;
+  display: block;
+  margin: 10px auto;
 }
-
 
 h1 {
-    font-size: 2.5rem;  
-    font-weight: bold;
-    margin: 17px 0;
+  font-size: 2.5rem;  
+  font-weight: bold;
+  margin: 17px 0;
 }
-
 
 h2, h3, h4, h5 {
-    font-size: 1.5rem;   
-    font-weight: 600;
-    margin: 15px 0;
+  font-size: 1.5rem;   
+  font-weight: 600;
+  margin: 15px 0;
 }
-
 
 p {
-    font-size: 1.2rem; 
-    line-height: 1.6;
-    max-width: 800px;
-    margin: 15px auto;
+  font-size: 1.2rem; 
+  line-height: 1.6;
+  max-width: 800px;
+  margin: 15px auto;
 }
-
-ul, ol {
-    padding: 0;
-    margin: 15px auto;
-    display: block; 
-    text-align: left; 
-    max-width: 400px;
-}    
-
-li {
-    margin: 5px 0;
-    font-size: 1.1rem;
-}
-
-
-button, .destacado {
-    background-color: #1e90ff;
-    color: #fff;
-    font-weight: bold;
-    padding: 10px 20px;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-    transition: background 0.3s ease;
-}
-
-button:hover, .destacado:hover {
-    background-color: #ff6347;
-}
-
-
-main {
-    padding: 20px;
-    max-width: 900px;
-    margin: 0 auto;
-}
-
 
 nav {
-     background-color: #fff;
-     padding: 15px;
-}
-
-nav a {
-    color: #fff;
-    margin: 0 20px;
-    font-size: 1.1rem;
-    font-weight: 500;
+  background-color: #1e1e2f;
+  padding: 15px;
 }
 
 nav ul {
-    list-style: none;
-    padding: 0;
-    margin: 0;
-    text-align: center;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  text-align: center;
 }
+
 nav ul li {
-    display: inline-block;
-    margin: 0 15px;
+  display: inline-block;
+  margin: 0 15px;
 }
 
 nav ul li a {
-        color: white;
-        text-decoration: none;
-        font-weight: bold;
-        padding: 10px 15px;
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  padding: 10px 15px;
+  transition: background-color 0.3s ease;
 }
-nav ul li a:hover{
-    background-color: #0056b3;
-    border-radius: 5px;
+
+nav ul li a:hover {
+  background-color: #0056b3;
+  border-radius: 5px;
 }
+
+main {
+  padding: 20px;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+/* --- GRID --- */
+.padre {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 15px;
+  background-color: lightgray;
+  padding: 20px;
+  border: 2px solid black;
+  border-radius: 10px;
+}
+
+.padre div {
+  padding: 20px;
+  border: 2px solid black;
+  font-weight: bold;
+  color: white;
+  font-size: 1.2rem;
+  border-radius: 8px;
+}
+
+.hijo1  { background-color: lightcoral; }
+.hijo2  { background-color: rgb(36, 10, 233); }
+.hijo3  { background-color: rgb(234, 95, 8); }
+.hijo4  { background-color: rgb(250, 8, 149); }
+.hijo5  { background-color: rgb(219, 153, 153); }
+.hijo6  { background-color: rgb(81, 71, 153); }
+.hijo7  { background-color: rgb(34, 107, 107); }
+.hijo8  { background-color: rgb(54, 223, 82); }
+.hijo9  { background-color: rgb(189, 179, 36); }
+.hijo10 { background-color: rgb(167, 55, 21); }
+.hijo11 { background-color: rgb(105, 214, 123); }
+.hijo12 { background-color: rgb(161, 20, 10); }
 
 footer {
-    background-color: #1e1e2f;
-    color: #fff;
-    padding: 15px 0;
-    margin-top: 20px;
+  background-color: #1e1e2f;
+  color: #fff;
+  padding: 15px 0;
+  margin-top: 20px;
 }
 footer p {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-.padre{
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: repeat(1, 1fr);
-    gap: 10px;
-    background-color: lightgray;
-    padding: 20px;
-    border:2px solid  black;
-}
-.hijo1{
-    background-color: lightcoral;
-    padding: 20px;
-    border: 2px solid black;
-}
-.hijo2{
-    background-color: rgb(36, 10, 233);
-    padding: 20px;
-    border: 2px solid black;
-}
-.hijo3{
-    background-color: rgb(234, 95, 8);
-    padding: 20px;
-    border: 2px solid black;
-}
-.hijo4{
-    background-color: rgb(250, 8, 149);
-    padding: 20px;
-    border: 2px solid black;
-}
-
-.hijo5{
-    background-color: rgb(219, 153, 153);
-    padding: 20px;
-    border: 2px solid black;
-}
-.hijo6{
-    background-color: rgb(81, 71, 153);
-    padding: 20px;
-    border: 2px solid black;
-}
-.hijo7{
-    background-color: rgb(34, 107, 107);
-    padding: 20px;
-    border: 2px solid black;
-}
-.hijo8{
-    background-color: rgb(54, 223, 82);
-    padding: 20px;
-    border: 2px solid black;
-}
-
-.hijo9{
-    background-color: rgb(189, 179, 36);
-    padding: 20px;
-    border: 2px solid black;
-}
-.hijo10{
-    background-color: rgb(167, 55, 21);
-    padding: 20px;
-    border: 2px solid black;
-}
-.hijo11{
-    background-color: rgb(105, 214, 123);
-    padding: 20px;
-    border: 2px solid black;
-}
-.hijo12{
-    background-color: rgb(161, 20, 10);
-    padding: 20px;
-    border: 2px solid black;
+  margin: 0;
 }
