@@ -177,7 +177,7 @@ simple-text {
     box-shadow: none;
     padding: 0;
     margin: 0;
-    color: #333; /* opcional, puedes cambiar el color del texto */
-    font-size: 1.2rem; /* opcional, para ajustar tamaño */
-    text-align: center; /* opcional, para centrar el texto */
+    color: #333; 
+    font-size: 1.2rem; 
+    text-align: center; 
 }
