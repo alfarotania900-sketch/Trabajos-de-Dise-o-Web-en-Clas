@@ -1,12 +1,12 @@
  
-/* --- Reset básico --- */
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-/* --- Estilos generales --- */
+
 body, html {
     height: 100%;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -26,7 +26,7 @@ a:hover {
     color: #ff6347;
 }
 
-/* --- Header --- */
+
 header {
     background-color: #9292c9; 
     color: #fff;
@@ -53,7 +53,7 @@ h2, h3, h4, h5 {
     margin: 15px 0;
 }
 
-/* --- Navegación --- */
+
 nav {
     background-color: #1e1e2f;
     padding: 15px;
@@ -83,7 +83,7 @@ nav ul li a:hover {
     background-color: #0056b3;
 }
 
-/* --- Main --- */
+
 main {
     max-width: 1000px;
     margin: 20px auto;
@@ -93,16 +93,16 @@ main {
     gap: 20px;
 }
 
-/* Cuadritos grises para todo el contenido del main */
+
 main > * {
-    background-color: #d3d3d3;  /* gris suave */
+    background-color: #d3d3d3;  
     border: 2px solid #999;
     border-radius: 10px;
     padding: 20px;
     box-shadow: 2px 2px 6px rgba(0,0,0,0.2);
 }
 
-/* --- Dashboard Grid (opcional, si usas padre/hijo) --- */
+
 .padre {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
@@ -120,7 +120,7 @@ main > * {
     border-radius: 8px;
 }
 
-/* Colores para los hijos */
+
 .hijo1  { background-color: lightcoral; }
 .hijo2  { background-color: rgb(36, 10, 233); }
 .hijo3  { background-color: rgb(234, 95, 8); }
@@ -134,7 +134,7 @@ main > * {
 .hijo11 { background-color: rgb(105, 214, 123); }
 .hijo12 { background-color: rgb(161, 20, 10); }
 
-/* --- Botones y destacados --- */
+
 button, .destacado {
     background-color: #e74c3c;
     color: white;
@@ -149,7 +149,7 @@ button:hover, .destacado:hover {
     background-color: #c0392b;
 }
 
-/* --- Footer --- */
+
 footer {
     background-color: #1e1e2f;
     color: #fff;
@@ -161,13 +161,23 @@ footer p {
     margin: 0;
 }
 
-/* --- Responsive --- */
+
 @media (max-width: 768px) {
     .dashboard {
-        grid-template-columns: 1fr; /* Sidebar arriba */
+        grid-template-columns: 1fr; /
     }
 
     .sidebar {
         text-align: center;
     }
+}
+simple-text {
+    background: none;
+    border: none;
+    box-shadow: none;
+    padding: 0;
+    margin: 0;
+    color: #333; /* opcional, puedes cambiar el color del texto */
+    font-size: 1.2rem; /* opcional, para ajustar tamaño */
+    text-align: center; /* opcional, para centrar el texto */
 }
